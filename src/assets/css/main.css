@@ -1,0 +1,23 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.container-w{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1240px) {
+    .container-w{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-w{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
