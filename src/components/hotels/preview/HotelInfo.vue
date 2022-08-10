@@ -1,6 +1,6 @@
 <template>
   <div class="container-w">
-    <div class="content flex justify-between mt-[47px] mb-[60px] gap-2">
+    <div class="content flex justify-between mt-[21px] sms:mt-[47px] sms:mb-[60px] mb-[36px] gap-2">
 
       <div class="info w-full lg:w-7/12">
         <div class="title-block flex justify-between mb-[20px] gap-2">
@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <ul class="tabs flex flex-wrap gap-2 w-full sms:max-w-[320px] mb-[40px]">
+        <ul class="tabs flex flex-wrap gap-2 w-full sms:max-w-[320px] mb-[21px] sms:mb-[40px]">
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Hotels with spa</li>
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Green Hotel</li>
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Bussines hotels</li>
@@ -33,6 +33,11 @@
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">Waller Creek District</li>
           <li class="text-xxs text-gray rounded-[5px] border border-blue-500 py-[3px] px-[8px] inline-flex">GDowntown Austin</li>
         </ul>
+
+        <div class="w-full mb-[40px] block sms:hidden">
+          <button class="bg-blue font-bold text-[#F8F8F8] py-[17px] rounded-[10px] w-full text-center mb-[18px]">Choose Room</button>
+          <div class="bg-[#F8F8F8] w-full h-[6px]"></div>
+        </div>
 
         <div class="description mb-[40px]">
           <p class="title text-black mb-[10px] text-lg font-extrabold">Property Description</p>

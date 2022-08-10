@@ -2,11 +2,11 @@
   <footer class="bg-blue-500 py-[23px] md:py-[46px]">
     <div class="container-w flex flex-col md:flex-row items-center justify-between">
       <div class="left-side">
-        <span class="flex gap-8">
-          <router-link to="/" class="text-black text-sm font-semibold">About us</router-link>
-          <router-link to="/" class="text-black text-sm font-semibold">Terms and Services</router-link>
-          <router-link to="/" class="text-black text-sm font-semibold">Privacy Policy</router-link>
-          <router-link to="/" class="text-black text-sm font-semibold">Support</router-link>
+        <span class="flex gap-4 sms:gap-8">
+          <router-link to="/" class="text-black text-xs sms:text-sm font-semibold">About us</router-link>
+          <router-link to="/" class="text-black text-xs sms:text-sm font-semibold">Terms and Services</router-link>
+          <router-link to="/" class="text-black text-xs sms:text-sm font-semibold">Privacy Policy</router-link>
+          <router-link to="/" class="text-black text-xs sms:text-sm font-semibold">Support</router-link>
         </span>
       </div>
 

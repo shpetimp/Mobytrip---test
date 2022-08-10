@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="map mb-[60px]">
+    <div class="map mb-[40px] sms:mb-[60px]">
       <p class="title text-black mb-[3px] text-lg font-extrabold block lg:hidden">Location</p>
-      <p class="mb-[15px] text-gray font-medium">500 E 4th St, Austin, TX 78701, United States</p>
+      <p class="mb-[15px] text-gray font-medium block lg:hidden">500 E 4th St, Austin, TX 78701, United States</p>
       <iframe
           class="rounded-[10px]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12192.642440299041!2d44.489174539550795!3d40.18323900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd0280bdae37%3A0xeb20aa01edce2d6b!2sHoliday%20Inn%20Express%20Yerevan%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2s!4v1659966330216!5m2!1sen!2s"

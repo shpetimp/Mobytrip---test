@@ -2,7 +2,7 @@
   <div class="app-wrapper">
     <AuthHeader />
 
-    <Breadcrumbs />
+    <Breadcrumbs/>
 
     <main>
       <router-view />
